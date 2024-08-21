@@ -8,8 +8,6 @@ axios.defaults.headers.common[
   "Authorization"
 ] = `Client-ID ${VITE_UNSPLASH_API_KEY}`;
 
-console.log(import.meta.env)
-
 export const getImage = async ({ query, page, per_page }) => {
   const response = await axios.get("/search/photos", {
     params: {
