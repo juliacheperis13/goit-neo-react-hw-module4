@@ -1,3 +1,10 @@
-.errorContainer{}
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
-.errorMessage{}
+.errorMessage {
+  font-style: italic;
+}
